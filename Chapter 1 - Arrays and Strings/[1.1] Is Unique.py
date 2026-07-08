@@ -27,7 +27,7 @@ EXTENSION
     If they are the same, we can return False.
 [3] Otherwise, we return True once the loop has completed.
 [4] Due to efficient sorting, time complexity is improved. Explicitly, we are not using an additional data structure. 
-    Under the hood, though, using sorted like this actually causes Python to create an additional list and sort it and rejoin it, making the space complexity the same as before.
+    Under the hood, though, using sorted like this actually causes Python to create an additional list, sort it, and rejoin it, making the space complexity the same as before.
 
 ANALYSIS
 Time Complexity: O(n)
