@@ -70,7 +70,7 @@ def is_unique3(s):
 '''
 EXPLANATION
 [1] We have two pointers that iterate across the string. One iterates from the first character to the second to last character, 
-    and the other iterates from the current position of the first pointer to the last character.
+    and the other iterates from 1 ahead of the current position of the first pointer to the last character.
 [2] If the characters at the two pointers match, then we can return False since there is no way for all characters to be unique.
 [3] If the loop exits, we can return True, since there are no two matching characters.
 
