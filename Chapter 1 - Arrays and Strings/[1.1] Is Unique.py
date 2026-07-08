@@ -21,6 +21,7 @@ def is_unique(s):
 ANALYSIS
 Time Complexity: O(n)
 Space Complexity: O(n)
+where n is the length of the string
 '''
 
 ''''''''''''''''''''''''''''''''''''
@@ -43,6 +44,7 @@ def is_unique2(s):
 ANALYSIS
 Time Complexity: O(n log n)
 Space Complexity: O(n)
+where n is the length of the string
 '''
 
 
@@ -59,4 +61,5 @@ def is_unique3(s):
 ANALYSIS
 Time Complexity: O(n^2)
 Space Complexity: O(1)
+where n is the length of the string
 '''
